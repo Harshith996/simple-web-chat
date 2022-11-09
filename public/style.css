@@ -6,7 +6,7 @@
 }
 
 html, input {
-  font-family:"Comic Sans","Comic Sans MS","Chalkboard","ChalkboardSE-Regular","Marker Felt","Purisa","URW Chancery L",cursive,sans-serif
+  font-family: 'Trebuchet MS', 'sans-serif'
 }
 
 html, body {
@@ -86,11 +86,12 @@ ul {
 /* Font */
 
 .messages {
-  font-size: 150%;
+  font-size: 250%;
+  font-weight: bold;
 }
 
 .inputMessage {
-  font-size: 100%;
+  font-size: 250%;
 }
 
 .log {
@@ -122,6 +123,23 @@ ul {
  color: rgb(255, 255, 255);
 }
 
+.message {
+  padding: 50px;
+  overflow-wrap: break-word;
+  display: inline-block;
+}
+
+.messageBody {
+  background-color: rgb(227, 193, 0);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 50px;
+  overflow-wrap: break-word;
+  width: fit-content;
+}
+
 .username {
   font-weight: 700;
   overflow: hidden;
@@ -134,13 +152,14 @@ ul {
 .inputMessage {
   border: 10px solid #000;
   bottom: 0;
-  height: 60px;
+  height: 8%;
   left: 0;
   outline: none;
-  padding-left: 10px;
+  padding: 10px;
   position: absolute;
   right: 0;
   width: 100%;
+  border-radius: 50px;
 }
 
 blink {

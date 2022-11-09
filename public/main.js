@@ -90,7 +90,7 @@ $(function() {
     var $usernameDiv = $('<span class="username"/>')
       .text(data.username)
       .css('color', getUsernameColor(data.username));
-    var $messageBodyDiv = $('<span class="messageBody">')
+    var $messageBodyDiv = $('<div class="messageBody">')
       .text(data.message);
 
     var typingClass = data.typing ? 'typing' : '';
